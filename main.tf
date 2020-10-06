@@ -7,16 +7,15 @@ terraform {
   }
     # Configure the Azure Provider
   
-   backend "azurerm" {
+ /* backend "azurerm" {
     resource_group_name =  "my-resources"
     storage_account_name = "mystorageaccount854"
     container_name       = "my-vhds"
     key                  = "terraform.tfstate"
     subscription_id      = "b63582fe-6299-4942-959a-2b8a03b8b420"
-    tenant_id            = "018567ba-0458-4e88-95c0-05dc36aed410"
+ ##   tenant_id            = "018567ba-0458-4e88-95c0-05dc36aed410"
 
-
-   }
+   }*/
 }
 
 

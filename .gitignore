@@ -5,6 +5,9 @@
 *.tfstate
 *.tfstate.*
 
+before_init.sh
+
+
 # Crash log files
 crash.log
 

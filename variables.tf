@@ -6,6 +6,8 @@ variable "name" {
   default = "my"
 }
 
+variable "ad_tenant_id" {}
+
 
 
 /*variable "instance_tag" {
