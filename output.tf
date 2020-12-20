@@ -11,3 +11,4 @@ output "IP_ADDRESS" {
     value = data.docker_registry_image.nginx.name
 
 }*/
+
